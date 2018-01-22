@@ -164,9 +164,12 @@ public class MdnsPlugin implements MethodCallHandler {
     private static Map<String, Object> ServiceToMap(NsdServiceInfo info) {
         Map<String, Object> map = new HashMap<>();
 
-        map.put("name", info.getServiceName());
-        map.put("type", info.getServiceType());
-        map.put("host", info.getHost());
+        map.put("name", info.getServiceName() != null ? info.getServiceName() : "");
+
+        map.put("type", info.getServiceType() != null ? info.getServiceType() : "");
+
+        map.put("host", info.getHost() != null ? info.getHost().toString() : "");
+
         map.put("port", info.getPort());
 
         return map;

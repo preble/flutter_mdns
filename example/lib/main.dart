@@ -3,7 +3,7 @@ import 'package:mdns/mdns.dart';
 
 void main() => runApp(new MyApp());
 
-const String discovery_service = "_iminate._tcp";
+const String discovery_service = "_workstation._tcp";
 
 class MyApp extends StatefulWidget {
   @override
