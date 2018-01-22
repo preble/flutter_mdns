@@ -1,10 +1,13 @@
 # mdns
 
 A Flutter plugin for mDNS&#x2F;NDS discovery and advertising.
+Ultimately this plugin will be compatible with Android and iOS.
 
-## Getting Started
+##Currently Working
+- Service Discovery on Android
 
-For help getting started with Flutter, view our online
-[documentation](http://flutter.io/).
+## TODO
+- Service Discovery on iOS
+- Service advertising on Android
+- Service advertising on iOS
 
-For help on editing plugin code, view the [documentation](https://flutter.io/platform-plugins/#edit-code).
