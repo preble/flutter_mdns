@@ -1,3 +1,5 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - Monday, January 22nd, 2018
 
-* TODO: Describe initial release.
+Added in this release:
+- Discovery for Android
+- Example flutter app with basic discovery function
